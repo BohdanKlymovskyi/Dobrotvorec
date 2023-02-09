@@ -65,6 +65,10 @@ section {
   max-width: 1200px;
 }
 
+ul {
+  list-style: none;
+}
+
 .about__container {
   display: flex;
   flex-direction: row;
@@ -87,6 +91,13 @@ section {
   text-shadow: 5px 4px 8px rgba(0, 0, 0, 0.6);
 }
 
+.help__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .help__bankdetails {
   box-shadow: 10px 10px 28px 0px rgb(0, 0, 0);
   max-width: 500px;
@@ -99,7 +110,7 @@ section {
   padding-bottom: 80px;
   padding-left: 40px;
   padding-right: 40px;
-  background: #005BBB;
+  background: rgba(0, 91, 187, 0.33);
 }
 
 .help__title {
@@ -119,4 +130,70 @@ section {
   padding-left: 77px;
   padding-right: 78px;
   border-radius: 30px;
+  box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+}
+
+.help__button:hover {
+  background: #005BBB;
+  box-shadow: none;
+  transition: all 250ms linear, transform 500ms ease-in-out;
+}
+
+.help__text {
+  max-width: 500px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-shadow: 5px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.help__titlegeneral {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71px;
+  text-shadow: 5px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.gethelp__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gethelp__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71px;
+  text-shadow: 5px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.gethelp__text {
+  max-width: 500px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-shadow: 5px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.header__listitem {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,21 @@
+.header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.header__listitem {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
