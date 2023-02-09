@@ -1,0 +1,53 @@
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.hero_title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+}
+
+.hero__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+
+.hero__button-help, .hero__button-volunteer {
+    background: #005BBB;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+ }
+
+ .hero__button-help:hover, .hero__button-volunteer:hover {
+    box-shadow: none;
+    background: #FFD500;
+    transition: all 250ms linear, transform 500ms ease-in-out;
+}
+
+ .hero__button-help {
+    padding-top: 23px;
+    padding-bottom: 22px;
+    padding-left: 77px;
+    padding-right: 78px;
+ }
+
+ .hero__button-volunteer {
+    padding-top: 23px;
+    padding-bottom: 22px;
+    padding-left: 46px;
+    padding-right: 47px;
+ }
