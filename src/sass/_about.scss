@@ -1,0 +1,21 @@
+.about__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about_title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    text-shadow: 5px 4px 8px rgba(0,0,0,0.6);
+}
+
+.about__text {
+    max-width: 500px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-shadow: 5px 4px 8px rgba(0,0,0,0.6);
+}

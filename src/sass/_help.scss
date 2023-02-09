@@ -1,0 +1,33 @@
+.help__bankdetails {
+    box-shadow: 10px 10px 28px 0px rgba(0,0,0,1);
+    max-width: 500px;
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #005BBB;
+}
+
+.help__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.help__button {
+    background-color: #FFD500;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    border: none;
+    padding-top: 23px;
+    padding-bottom: 22px;
+    padding-left: 77px;
+    padding-right: 78px;
+    border-radius: 30px;
+}

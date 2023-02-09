@@ -1,8 +1,13 @@
 body {
     font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 section {
     padding-top: 94px;
     padding-bottom: 94px;
+    max-width: 1200px;
 }
